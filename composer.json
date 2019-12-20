@@ -1,0 +1,32 @@
+{
+    "name": "dominic/crawler",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SpecialDragonfly/router"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/console": "^5.0",
+        "ext-sqlite3": "*",
+        "monolog/monolog": "^2.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crawler\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominic Orme",
+            "email": "dominic.orme@googlemail.com"
+        }
+    ]
+}
